@@ -39,22 +39,22 @@ namespace C_課題Form2
 
             if (hasYama && hasUmi)
             {
-                label1.Text = "どちらも含まれている";
+                label1.Text = "どちらも含まれている。";
                 label1.ForeColor = Color.Red;
             }
             else if (hasYama)
             {
-                label1.Text = "山が含まれている";
+                label1.Text = "山が含まれている。";
                 label1.ForeColor = Color.Green;
             }
             else if (hasUmi)
             {
-                label1.Text = "海が含まれている";
+                label1.Text = "海が含まれている。";
                 label1.ForeColor = Color.Blue;
             }
             else
             {
-                label1.Text = "どちらも含まれていない";
+                label1.Text = "どちらも含まれていない。";
                 label1.ForeColor = Color.Black;
             }
         }
